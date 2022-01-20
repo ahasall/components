@@ -630,10 +630,12 @@
   resolved "https://registry.yarnpkg.com/@bazel/protractor/-/protractor-2.2.1.tgz#15ec684a4349d3dbb28258e1786c51c7312b273c"
   integrity sha512-anHjG1ecKtsvnBEDJOk+C1jfJC2VS0F2lrum42ZbfbYH+0sH7PJjovKfEqwq+AfiQHL1fY6rYMr4HCieIWcF8g==
 
-"@bazel/rollup@^2.2.0":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@bazel/rollup/-/rollup-2.2.1.tgz#f72304879c0261fcc94edc47c14fd24984503d7a"
-  integrity sha512-G0f8r4CpDw9ACwCeWryOPAkigkmvRz6buNzgcghoKKSa6FjngKnF/rOP7I1TcNu+dOUcoTxeqlSf3eRfRRjK6w==
+"@bazel/rollup@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@bazel/rollup/-/rollup-5.0.0.tgz#9ca36fc79b1f2a5afcd5638c9075a4e783dba96e"
+  integrity sha512-oI4FIk4LTsmJebnH4ZiNelqlKk7uE65EoZ8R7JG7+bvkATJd6fpfi7AYloPjwYCyq3k1Ph3eBjbI1bxBioYoOg==
+  dependencies:
+    "@bazel/worker" "5.0.0"
 
 "@bazel/terser@^2.2.0":
   version "2.2.1"
@@ -649,6 +651,13 @@
     semver "5.6.0"
     source-map-support "0.5.9"
     tsutils "2.27.2"
+
+"@bazel/worker@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@bazel/worker/-/worker-5.0.0.tgz#7d50647186cdb8b577812fff64e74f7f81ebca41"
+  integrity sha512-5i9TQYZETkKnCrsQEJ+AHGitBAhg4zoWcmR7H8aJa1o3optImjVrLkVZgbMWqoCkloTJZzTOp4dVOxaBM2H80w==
+  dependencies:
+    google-protobuf "^3.6.1"
 
 "@bcoe/v8-coverage@^0.2.3":
   version "0.2.3"
@@ -6328,6 +6337,11 @@ google-p12-pem@^2.0.0:
   integrity sha512-S4blHBQWZRnEW44OcR7TL9WR+QCqByRvhNDZ/uuQfpxywfupikf/miba8js1jZi6ZOGv5slgSuoshCWh6EMDzg==
   dependencies:
     node-forge "^0.9.0"
+
+google-protobuf@^3.6.1:
+  version "3.19.3"
+  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.19.3.tgz#2d5fb0c77584d675fca509a1fbc80c64fff471c9"
+  integrity sha512-3GRDj8o9XjcALYjgxNKeD7Wm6w/V8r1Jo4sLYMic9+VaIMLBx8TQeHP9yaoRoDymNONhnkmmveDPyjw/Fpw8+A==
 
 got@^9.6.0:
   version "9.6.0"
