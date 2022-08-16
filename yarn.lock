@@ -572,9 +572,9 @@
     to-fast-properties "^2.0.0"
 
 "@bazel/bazelisk@^1.4.0":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@bazel/bazelisk/-/bazelisk-1.7.2.tgz#80673d886ac46bf671f6b1908bf80a4eb84eb200"
-  integrity sha512-/cin20XIfSctNVh6veOVKFwUp6g6/oeEEvgPLSetgK6HFspReI3jI+2lO4haQX8yD2QFN20ndheXDuLYidoj6g==
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@bazel/bazelisk/-/bazelisk-1.12.1.tgz#346531286564aa29eee03a62362d210f3433e7bf"
+  integrity sha512-TGCwVeIiVeQUP6yLpxAg8yluFOC+tBQnWw5l8lqwMxKhRtOA+WaH1CJKAXeCBAaS2MxohhkXq44zj/7AM+t2jg==
 
 "@bazel/buildifier-darwin_x64@0.29.0":
   version "0.29.0"
